@@ -5,10 +5,10 @@ const Navigation = (props) => {
   return (
     <div className="nav">
       <button className="button" onClick={props.back}>
-        Back
+        Back Page
       </button>
       <button className="button" onClick={props.next}>
-        Next
+        Next Page
       </button>
     </div>
   );
